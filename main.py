@@ -11,7 +11,7 @@ from os import environ
 
 bot_token = environ.get("TOKEN", "b3611c291bf82d917637d61e4a136535") 
 api_hash = environ.get("HASH", "23080322") 
-api_id = int(environ.get("ID", "7478653130:AAHwQ07X0ei66I-6b6lBfC9WiFZ-c-iYv5c"))
+api_id = int(environ.get("ID", "7478653130:AAHDFWTZ-Z8IetV-nktJcfhQUb7zqNmWmlA"))
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = environ.get("STRING", "BAFgLYIAPwR4P_tICKd2uf_etLU02a2_hu8bWsFaMRjqM9rtNVj28wUUCXdSWC7bRUpQZhcwf0BULgg7LIjiZpHGJXCXqA9EUAVl02DZavQhWqJaB2IilNdgqIwsXOw1huHuL3dUU2vqf4vDXzLvOrTZvbvfi5gJk9oLd3f7ycbm2zK0CRHpvkTzN_iWCqnjgbZRWSI6L9OG4R6qeKM0K_QUyAcQlP2SwI7vEwHgCdIwhgh_3_rmUdESx-2fpj5-4heI8hnNw4nDpUGXrBSdHrqkMBCBh1aVQEdVWrAyJ-e_HyCn1Twe-4El3RQ-sh7rFxIfSM5G8zZEKDph_DXTkstu1JFB7QAAAAGCggAWAA")
